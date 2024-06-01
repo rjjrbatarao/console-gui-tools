@@ -2,7 +2,7 @@
     "name": "console-gui-tools",
     "version": "3.6.0",
     "description": "A simple library to draw option menu, text popup or other widgets and layout on a Node.js console.",
-    "main": "dist/esm/ConsoleGui.mjs",
+    "main": "dist/cjs/ConsoleGui.cjs",
     "types": "dist/types/ConsoleGui.d.ts",
     "module": "dist/esm/ConsoleGui.mjs",
     "type": "module",
@@ -53,7 +53,7 @@
     },
     "homepage": "https://github.com/Elius94/console-gui-tools#readme",
     "dependencies": {
-        "chalk": "^5.2.0"
+        "chalk": "^4"
     },
     "devDependencies": {
         "@babel/cli": "^7.20.7",
